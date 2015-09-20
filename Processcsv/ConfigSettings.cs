@@ -5,7 +5,7 @@ using System.Text;
 using System.IO;
 using System.Reflection;
 
-namespace NotificationSystem
+namespace Processcsv
 {
     class ConfigSettings
     {
@@ -41,12 +41,13 @@ namespace NotificationSystem
 
         private static string GetConfigFilePath()
         {
-            string path = Assembly.GetExecutingAssembly().Location;
-            path = path.Substring(0, path.LastIndexOf(@"\") + 1) + @"conf.ini";
-            if (File.Exists(path))
-                return path;
-            else
-                throw new Exception("Configuration file missing; make sure conf.ini is available");
+            return @"E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\bin\Debug\conf.ini";// Assembly.GetExecutingAssembly().Location;
+            //string path = Assembly.GetExecutingAssembly().Location;
+            //path = path.Substring(0, path.LastIndexOf(@"\") + 1) + @"conf.ini";
+            //if (File.Exists(path))
+            //    return path;
+            //else
+            //    throw new Exception("Configuration file missing; make sure conf.ini is available");
         }
 
         private void ReadSetting()
@@ -119,3 +120,4 @@ namespace NotificationSystem
         }
     }
 }
+

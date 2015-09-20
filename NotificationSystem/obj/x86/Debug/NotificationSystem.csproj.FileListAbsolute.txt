@@ -1,5 +1,4 @@
 E:\dotnet\Solutions\NotificationSystem\codeTransformers\NotificationSystem\bin\Debug\NotificationSystem.exe
 E:\dotnet\Solutions\NotificationSystem\codeTransformers\NotificationSystem\bin\Debug\NotificationSystem.pdb
-E:\dotnet\Solutions\NotificationSystem\codeTransformers\NotificationSystem\obj\x86\Debug\NotificationSystem.csprojResolveAssemblyReference.cache
 E:\dotnet\Solutions\NotificationSystem\codeTransformers\NotificationSystem\obj\x86\Debug\NotificationSystem.exe
 E:\dotnet\Solutions\NotificationSystem\codeTransformers\NotificationSystem\obj\x86\Debug\NotificationSystem.pdb

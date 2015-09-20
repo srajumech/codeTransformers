@@ -1,0 +1,7 @@
+E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\bin\Debug\Processcsv.exe
+E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\bin\Debug\Processcsv.pdb
+E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\obj\x86\Debug\Processcsv.Service1.resources
+E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\obj\x86\Debug\Processcsv.csproj.GenerateResource.Cache
+E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\obj\x86\Debug\Processcsv.exe
+E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\obj\x86\Debug\Processcsv.pdb
+E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\obj\x86\Debug\Processcsv.ProjectInstaller.resources

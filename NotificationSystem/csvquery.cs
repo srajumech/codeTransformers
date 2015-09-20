@@ -9,12 +9,12 @@ namespace NotificationSystem
 {
     class csvquery
     {
-        private int _colNum ; 
+        private int _colNum;
         private string _csvpath;
         public int colNum
         {
-            get{return _colNum ;}
-            set{_colNum =value;}
+            get { return _colNum; }
+            set { _colNum = value; }
         }
         public string csvpath
         {
@@ -29,7 +29,7 @@ namespace NotificationSystem
             }
             catch (Exception ex)
             {
-                FileLogger.LogToFile("Exception: "+ ex.Message);
+                FileLogger.LogToFile("Exception: " + ex.Message);
             }
         }
         public int getnumberofcolumns()
@@ -45,7 +45,7 @@ namespace NotificationSystem
                 {
                     FileLogger.LogToFile("Exception: " + ex.Message);
                 }
-                
+
             }
 
             return colNum;
@@ -65,7 +65,8 @@ namespace NotificationSystem
                             if (columnnms.Contains(line.Split(',')[1].ToString().ToLower()))
                             {
                             }
-                            else{
+                            else
+                            {
                                 columnnms.Add(line.Split(',')[1].ToString().ToLower());
                             }
 
@@ -86,11 +87,11 @@ namespace NotificationSystem
             dtattributes.Sort();
             DataTable dt = new DataTable();
             dt.Columns.Add("item");
-            foreach( string col in dtattributes)
+            foreach (string col in dtattributes)
             {
                 dt.Columns.Add(col);
             }
-            
+
             using (StreamReader conf = File.OpenText(csvpath))
             {
                 while (!conf.EndOfStream)
@@ -100,7 +101,7 @@ namespace NotificationSystem
                     var results = from myRow in dt.AsEnumerable()
                                   where myRow.Field<string>("item") == line.Split(',')[0]
                                   select myRow;
-                    
+
                     foreach (DataRow rw in results)
                     {
                         exist = true;
@@ -110,7 +111,7 @@ namespace NotificationSystem
          r[line.Split(',')[1]] = line.Split(',')[2];
      });
                     }
-                    if (!exist )
+                    if (!exist)
                     {
                         DataRow dr = dt.NewRow();
                         dr["item"] = Convert.ToInt32(line.Split(',')[0]);
@@ -118,9 +119,10 @@ namespace NotificationSystem
                         dt.Rows.Add(dr);
                     }
                 }
-                
+
             }
             return dt;
         }
     }
+
 }

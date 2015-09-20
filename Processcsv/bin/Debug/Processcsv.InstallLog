@@ -1,0 +1,60 @@
+﻿Installing assembly 'E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\bin\Debug\Processcsv.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\bin\Debug\Processcsv.InstallLog
+   assemblypath = E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\bin\Debug\Processcsv.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\bin\Debug\Processcsv.exe assembly.
+Committing assembly 'E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\bin\Debug\Processcsv.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\bin\Debug\Processcsv.InstallLog
+   assemblypath = E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\bin\Debug\Processcsv.exe
+No public installers with the RunInstallerAttribute.Yes attribute could be found in the E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\bin\Debug\Processcsv.exe assembly.
+Remove InstallState file because there are no installers.
+Installing assembly 'E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\bin\Debug\Processcsv.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\bin\Debug\Processcsv.InstallLog
+   assemblypath = E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\bin\Debug\Processcsv.exe
+Installing service ProcessCSV...
+Service ProcessCSV has been successfully installed.
+Creating EventLog source ProcessCSV in log Application...
+Committing assembly 'E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\bin\Debug\Processcsv.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\bin\Debug\Processcsv.InstallLog
+   assemblypath = E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\bin\Debug\Processcsv.exe
+Uninstalling assembly 'E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\bin\Debug\Processcsv.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\bin\Debug\Processcsv.InstallLog
+   assemblypath = E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\bin\Debug\Processcsv.exe
+Removing EventLog source ProcessCSV.
+Service ProcessCSV is being removed from the system...
+Service ProcessCSV was successfully removed from the system.
+Installing assembly 'E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\bin\Debug\Processcsv.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\bin\Debug\Processcsv.InstallLog
+   assemblypath = E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\bin\Debug\Processcsv.exe
+Installing service ProcessCSV...
+Service ProcessCSV has been successfully installed.
+Creating EventLog source ProcessCSV in log Application...
+Committing assembly 'E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\bin\Debug\Processcsv.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\bin\Debug\Processcsv.InstallLog
+   assemblypath = E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\bin\Debug\Processcsv.exe
+Installing assembly 'E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\bin\Debug\Processcsv.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\bin\Debug\Processcsv.InstallLog
+   assemblypath = E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\bin\Debug\Processcsv.exe
+Installing service ProcessCSV...
+Creating EventLog source ProcessCSV in log Application...
+Rolling back assembly 'E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\bin\Debug\Processcsv.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\bin\Debug\Processcsv.InstallLog
+   assemblypath = E:\dotnet\Solutions\NotificationSystem\codeTransformers\Processcsv\bin\Debug\Processcsv.exe
+Restoring event log to previous state for source ProcessCSV.
