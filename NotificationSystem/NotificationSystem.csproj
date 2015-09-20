@@ -34,6 +34,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Broadcast">
+      <HintPath>..\Broadcast\bin\Debug\Broadcast.dll</HintPath>
+    </Reference>
     <Reference Include="MongoDB.Bson">
       <HintPath>G:\CSharpDriver-2.0.1\MongoDB.Bson.dll</HintPath>
     </Reference>
@@ -60,6 +63,7 @@
     <Compile Include="csvquery.cs" />
     <Compile Include="Fields.cs" />
     <Compile Include="FileLogger.cs" />
+    <Compile Include="MailNotification.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
