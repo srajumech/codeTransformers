@@ -1,0 +1,7 @@
+E:\dotnet\Solutions\NotificationSystem\codeTransformers\MasterControl\MasterControl\bin\Debug\MasterControl.exe
+E:\dotnet\Solutions\NotificationSystem\codeTransformers\MasterControl\MasterControl\bin\Debug\MasterControl.pdb
+E:\dotnet\Solutions\NotificationSystem\codeTransformers\MasterControl\MasterControl\obj\x86\Debug\MasterControl.MasterControl.resources
+E:\dotnet\Solutions\NotificationSystem\codeTransformers\MasterControl\MasterControl\obj\x86\Debug\MasterControl.Properties.Resources.resources
+E:\dotnet\Solutions\NotificationSystem\codeTransformers\MasterControl\MasterControl\obj\x86\Debug\MasterControl.csproj.GenerateResource.Cache
+E:\dotnet\Solutions\NotificationSystem\codeTransformers\MasterControl\MasterControl\obj\x86\Debug\MasterControl.exe
+E:\dotnet\Solutions\NotificationSystem\codeTransformers\MasterControl\MasterControl\obj\x86\Debug\MasterControl.pdb

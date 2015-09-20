@@ -48,7 +48,7 @@ namespace MasterControl
 
             if (btnAdd.Text == "Update")
             {
-                doc.Load("D:\\Subscriber.xml");
+                doc.Load("C:\\Subscriber.xml");
                 XmlNode delNode = doc.SelectSingleNode("//Subscribers/Subscriber/ID[text()='" + id + "']");
                 delNode.NextSibling.InnerText = txtName.Text;
                 delNode.NextSibling.NextSibling.InnerText = txtEmail.Text;
@@ -70,7 +70,7 @@ namespace MasterControl
 
                 doc.DocumentElement.AppendChild(element);
             }
-            doc.Save("D:\\Subscriber.xml");
+            doc.Save("C:\\Subscriber.xml");
             BindGrid();
             txtName.Text = string.Empty;
             txtEmail.Text = string.Empty;
@@ -80,9 +80,9 @@ namespace MasterControl
         private void MasterControl_Load(object sender, EventArgs e)
         {
             doc = new XmlDocument();
-            if (File.Exists("D:\\Subscriber.xml"))
+            if (File.Exists("C:\\Subscriber.xml"))
             {
-                doc.Load("D:\\Subscriber.xml");
+                doc.Load("C:\\Subscriber.xml");
             }
             else
             {
@@ -102,7 +102,7 @@ namespace MasterControl
         private void BindGrid()
         {
             DataSet ds = new DataSet();
-            ds.ReadXml("D:\\Subscriber.xml");
+            ds.ReadXml("C:\\Subscriber.xml");
             
             if (ds.Tables.Count > 0)
             {
@@ -113,7 +113,7 @@ namespace MasterControl
         private void LoadSubsciber()
         {
             DataSet ds = new DataSet();
-            ds.ReadXml("D:\\Subscriber.xml");
+            ds.ReadXml("C:\\Subscriber.xml");
             if (ds.Tables.Count > 0)
             {
                 cmbSubscriber.DataSource = ds.Tables[0];
@@ -194,10 +194,10 @@ namespace MasterControl
 
         void deleteNode(string id)
         {
-           doc.Load("D:\\Subscriber.xml"); 
+           doc.Load("C:\\Subscriber.xml"); 
            XmlNode delNode = doc.SelectSingleNode("//Subscribers/Subscriber/ID[text()='" + id + "']");
            doc.DocumentElement.RemoveChild(delNode.ParentNode);
-           doc.Save("D:\\Subscriber.xml");
+           doc.Save("C:\\Subscriber.xml");
            
            BindGrid();
            txtName.Text = string.Empty;
@@ -243,7 +243,7 @@ namespace MasterControl
             }
 
             XmlDocument doc = new XmlDocument();
-            doc.Load("D:\\Subscriber.xml");
+            doc.Load("C:\\Subscriber.xml");
             string id = cmbSubscriber.SelectedValue.ToString();
             XmlNode subsNode = doc.SelectSingleNode("//Subscribers/Subscriber/ID[text()='" + id + "']");
             XmlNode nodeCondition = subsNode.ParentNode.SelectSingleNode("Condition");
@@ -269,7 +269,7 @@ namespace MasterControl
             
             subsNode.ParentNode.AppendChild(nodeCondition);
             subsNode.ParentNode.AppendChild(nodeConditionLimiter);
-            doc.Save("D:\\Subscriber.xml");
+            doc.Save("C:\\Subscriber.xml");
         }
 
         private void cmbSubscriber_SelectedIndexChanged(object sender, EventArgs e)
@@ -281,7 +281,7 @@ namespace MasterControl
 
         private void LoadSubscriberConditions()
         {
-            doc.Load("D:\\Subscriber.xml");
+            doc.Load("C:\\Subscriber.xml");
             string id = cmbSubscriber.SelectedValue.ToString();
             XmlNode subsNode = doc.SelectSingleNode("//Subscribers/Subscriber/ID[text()='" + id + "']");
             if (subsNode != null)
